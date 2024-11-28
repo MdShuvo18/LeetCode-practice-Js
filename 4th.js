@@ -37,7 +37,8 @@ var createCounter = function (init) {
 };
 
 
-const counter = createCounter(5)
+const counter = createCounter(10)
 console.log(counter.increment());
+console.log(counter.reset());
 console.log(counter.decrement());
-console.log(counter.reset());;
+
